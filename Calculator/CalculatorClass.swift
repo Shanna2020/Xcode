@@ -11,10 +11,7 @@ import UIKit
 class CalculatorClass{
     
     var arrayString:[String]=[]
-    //var historyArray:[String]=[]
-    //var displayString:String=""
     var errorVar = 9999999
-  //  var calNum=0, secNum=0;
     var modeVar = false
     
     //Push function///////////////////////////////////////////////////////
@@ -53,7 +50,7 @@ class CalculatorClass{
     
     
     
- /////////////////////Cal c Function////////////////////////////////////
+ /////////////////////Calc Function////////////////////////////////////
  func calc()-> Int{
     var calNum:Int=0 , secNum=0;
      var i=0 , j=0, fnumtest = 0, snumtest = 0;
@@ -63,9 +60,11 @@ class CalculatorClass{
      
 
      
-if arrayString.isEmpty{ //test if array is empty
- return errorVar
-   }else{
+if arrayString.isEmpty
+{ //test if array is empty
+    return errorVar
+}
+else{
      
 while(j < arrayString.count)
 { //control looping through string to check same operation
@@ -75,7 +74,7 @@ while(j < arrayString.count)
      {
          if(num==arrayString[j])
          {
-             fnumtest = numValue //assigning tthe value to the first variable
+            fnumtest = numValue //assigning tthe value to the first variable
             if fnumtest==2{return errorVar} //if first number is not a number return error
           }
          
@@ -109,7 +108,7 @@ while i < arrayString.count
      if calNum == 0
      {
         calNum = Int(arrayString[0])!
-           i+=1
+       i+=1
      } // check the first number
       //do calculation based on operands
     switch arrayString[i]{

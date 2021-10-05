@@ -61,7 +61,7 @@ class ViewController: UIViewController {
                 displayLabel.text = displayString
             
                 if mode==true{ //if mode is true add display string to history string
-                historyString += " \(displayString)"
+                historyString += "\n \(displayString)"
                 
                 historyLabel.text = historyString
                 
