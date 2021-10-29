@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C1DEBB72729CD8900185402 /* myCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1DEBB62729CD8900185402 /* myCustomTableViewCell.swift */; };
+		6C34F60D27263EB500A8987D /* CustomManageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C34F60C27263EB500A8987D /* CustomManageButton.swift */; };
+		6C34F6102726482E00A8987D /* HistoryPanelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C34F60F2726482E00A8987D /* HistoryPanelButton.swift */; };
+		6C34F61327264A5200A8987D /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C34F61227264A5200A8987D /* HistoryViewController.swift */; };
+		6C34F61627264A7A00A8987D /* RestockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C34F61527264A7A00A8987D /* RestockViewController.swift */; };
+		6C34F619272652C000A8987D /* DetailHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C34F618272652C000A8987D /* DetailHistoryViewController.swift */; };
+		6C3B3565272636F600F00599 /* ManagerPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3B3564272636F600F00599 /* ManagerPanelViewController.swift */; };
+		6C5A3553272688C500ECA5BA /* HistoryProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5A3552272688C500ECA5BA /* HistoryProduct.swift */; };
+		6C5A355627268A1600ECA5BA /* HistoryProductManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5A355527268A1600ECA5BA /* HistoryProductManager.swift */; };
+		6C69885C2722D8B400355E88 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C69885B2722D8B400355E88 /* Product.swift */; };
+		6C712A902725A954009454F4 /* ProductManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C712A8F2725A954009454F4 /* ProductManager.swift */; };
+		6CEAF1552717D5A000BAD92A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEAF1542717D5A000BAD92A /* AppDelegate.swift */; };
+		6CEAF1572717D5A000BAD92A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEAF1562717D5A000BAD92A /* SceneDelegate.swift */; };
+		6CEAF1592717D5A000BAD92A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEAF1582717D5A000BAD92A /* ViewController.swift */; };
+		6CEAF15C2717D5A000BAD92A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CEAF15A2717D5A000BAD92A /* Main.storyboard */; };
+		6CEAF15E2717D5AA00BAD92A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CEAF15D2717D5AA00BAD92A /* Assets.xcassets */; };
+		6CEAF1612717D5AA00BAD92A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CEAF15F2717D5AA00BAD92A /* LaunchScreen.storyboard */; };
+		6CFF6CF92725168B00BABC02 /* CashRegisterCal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFF6CF82725168B00BABC02 /* CashRegisterCal.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C1DEBB62729CD8900185402 /* myCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCustomTableViewCell.swift; sourceTree = "<group>"; };
+		6C34F60C27263EB500A8987D /* CustomManageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomManageButton.swift; sourceTree = "<group>"; };
+		6C34F60F2726482E00A8987D /* HistoryPanelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryPanelButton.swift; sourceTree = "<group>"; };
+		6C34F61227264A5200A8987D /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		6C34F61527264A7A00A8987D /* RestockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestockViewController.swift; sourceTree = "<group>"; };
+		6C34F618272652C000A8987D /* DetailHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHistoryViewController.swift; sourceTree = "<group>"; };
+		6C3B3564272636F600F00599 /* ManagerPanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerPanelViewController.swift; sourceTree = "<group>"; };
+		6C5A3552272688C500ECA5BA /* HistoryProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryProduct.swift; sourceTree = "<group>"; };
+		6C5A355527268A1600ECA5BA /* HistoryProductManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryProductManager.swift; sourceTree = "<group>"; };
+		6C69885B2722D8B400355E88 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		6C712A8F2725A954009454F4 /* ProductManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductManager.swift; sourceTree = "<group>"; };
+		6CEAF1512717D5A000BAD92A /* Cash Register Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cash Register Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CEAF1542717D5A000BAD92A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6CEAF1562717D5A000BAD92A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6CEAF1582717D5A000BAD92A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6CEAF15B2717D5A000BAD92A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CEAF15D2717D5AA00BAD92A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CEAF1602717D5AA00BAD92A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CEAF1622717D5AA00BAD92A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CFF6CF82725168B00BABC02 /* CashRegisterCal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashRegisterCal.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CEAF14E2717D5A000BAD92A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C0210C7272C906E00E903D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6C69885B2722D8B400355E88 /* Product.swift */,
+				6CFF6CF82725168B00BABC02 /* CashRegisterCal.swift */,
+				6C712A8F2725A954009454F4 /* ProductManager.swift */,
+				6C5A3552272688C500ECA5BA /* HistoryProduct.swift */,
+				6C5A355527268A1600ECA5BA /* HistoryProductManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6C0210C9272C932F00E903D1 /* ViewControl */ = {
+			isa = PBXGroup;
+			children = (
+				6C34F61527264A7A00A8987D /* RestockViewController.swift */,
+				6C34F618272652C000A8987D /* DetailHistoryViewController.swift */,
+				6C34F61227264A5200A8987D /* HistoryViewController.swift */,
+				6C3B3564272636F600F00599 /* ManagerPanelViewController.swift */,
+			);
+			path = ViewControl;
+			sourceTree = "<group>";
+		};
+		6CEAF1482717D5A000BAD92A = {
+			isa = PBXGroup;
+			children = (
+				6CEAF1532717D5A000BAD92A /* Cash Register Application */,
+				6CEAF1522717D5A000BAD92A /* Products */,
+				6C34F60F2726482E00A8987D /* HistoryPanelButton.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		6CEAF1522717D5A000BAD92A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CEAF1512717D5A000BAD92A /* Cash Register Application.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CEAF1532717D5A000BAD92A /* Cash Register Application */ = {
+			isa = PBXGroup;
+			children = (
+				6CEAF1542717D5A000BAD92A /* AppDelegate.swift */,
+				6CEAF1562717D5A000BAD92A /* SceneDelegate.swift */,
+				6C0210C9272C932F00E903D1 /* ViewControl */,
+				6CEAF1582717D5A000BAD92A /* ViewController.swift */,
+				6CEAF15A2717D5A000BAD92A /* Main.storyboard */,
+				6C1DEBB62729CD8900185402 /* myCustomTableViewCell.swift */,
+				6C34F60C27263EB500A8987D /* CustomManageButton.swift */,
+				6CEAF15D2717D5AA00BAD92A /* Assets.xcassets */,
+				6CEAF15F2717D5AA00BAD92A /* LaunchScreen.storyboard */,
+				6CEAF1622717D5AA00BAD92A /* Info.plist */,
+				6C0210C7272C906E00E903D1 /* Model */,
+			);
+			path = "Cash Register Application";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CEAF1502717D5A000BAD92A /* Cash Register Application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CEAF1652717D5AA00BAD92A /* Build configuration list for PBXNativeTarget "Cash Register Application" */;
+			buildPhases = (
+				6CEAF14D2717D5A000BAD92A /* Sources */,
+				6CEAF14E2717D5A000BAD92A /* Frameworks */,
+				6CEAF14F2717D5A000BAD92A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cash Register Application";
+			productName = "Cash Register Application";
+			productReference = 6CEAF1512717D5A000BAD92A /* Cash Register Application.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CEAF1492717D5A000BAD92A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					6CEAF1502717D5A000BAD92A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 6CEAF14C2717D5A000BAD92A /* Build configuration list for PBXProject "Cash Register Application" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CEAF1482717D5A000BAD92A;
+			productRefGroup = 6CEAF1522717D5A000BAD92A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CEAF1502717D5A000BAD92A /* Cash Register Application */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CEAF14F2717D5A000BAD92A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CEAF1612717D5AA00BAD92A /* LaunchScreen.storyboard in Resources */,
+				6CEAF15E2717D5AA00BAD92A /* Assets.xcassets in Resources */,
+				6CEAF15C2717D5A000BAD92A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CEAF14D2717D5A000BAD92A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CEAF1592717D5A000BAD92A /* ViewController.swift in Sources */,
+				6C1DEBB72729CD8900185402 /* myCustomTableViewCell.swift in Sources */,
+				6C712A902725A954009454F4 /* ProductManager.swift in Sources */,
+				6CFF6CF92725168B00BABC02 /* CashRegisterCal.swift in Sources */,
+				6C34F61327264A5200A8987D /* HistoryViewController.swift in Sources */,
+				6C34F60D27263EB500A8987D /* CustomManageButton.swift in Sources */,
+				6C5A3553272688C500ECA5BA /* HistoryProduct.swift in Sources */,
+				6C34F6102726482E00A8987D /* HistoryPanelButton.swift in Sources */,
+				6C3B3565272636F600F00599 /* ManagerPanelViewController.swift in Sources */,
+				6C69885C2722D8B400355E88 /* Product.swift in Sources */,
+				6C34F619272652C000A8987D /* DetailHistoryViewController.swift in Sources */,
+				6CEAF1552717D5A000BAD92A /* AppDelegate.swift in Sources */,
+				6CEAF1572717D5A000BAD92A /* SceneDelegate.swift in Sources */,
+				6C5A355627268A1600ECA5BA /* HistoryProductManager.swift in Sources */,
+				6C34F61627264A7A00A8987D /* RestockViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6CEAF15A2717D5A000BAD92A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CEAF15B2717D5A000BAD92A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CEAF15F2717D5AA00BAD92A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CEAF1602717D5AA00BAD92A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CEAF1632717D5AA00BAD92A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6CEAF1642717D5AA00BAD92A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CEAF1662717D5AA00BAD92A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cash Register Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanna.Cash-Register-Application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CEAF1672717D5AA00BAD92A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cash Register Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanna.Cash-Register-Application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CEAF14C2717D5A000BAD92A /* Build configuration list for PBXProject "Cash Register Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CEAF1632717D5AA00BAD92A /* Debug */,
+				6CEAF1642717D5AA00BAD92A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CEAF1652717D5AA00BAD92A /* Build configuration list for PBXNativeTarget "Cash Register Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CEAF1662717D5AA00BAD92A /* Debug */,
+				6CEAF1672717D5AA00BAD92A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CEAF1492717D5A000BAD92A /* Project object */;
+}
