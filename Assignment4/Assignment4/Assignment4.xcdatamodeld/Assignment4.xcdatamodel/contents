@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="19H1519" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Infod" representedClassName="Infod" syncable="YES" codeGenerationType="class">
+        <attribute name="alcoholic" optional="YES" attributeType="String"/>
+        <attribute name="drink" optional="YES" attributeType="String"/>
+        <attribute name="drinkThumb" optional="YES" attributeType="String"/>
+        <attribute name="instructions" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Infod" positionX="-63" positionY="-18" width="128" height="103"/>
+    </elements>
+</model>
